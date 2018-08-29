@@ -1,25 +1,27 @@
-import React from 'react';
+import React from 'react'
 
-// Import team members
-import Megan from '../team/Megan';
-import Mark from '../team/Mark';
-import Will from '../team/Will';
-import Vikram from '../team/Vikram';
-import Christian from '../team/Christian';
+import TeamMember from '../components/TeamMember'
 
 class Team extends React.Component {
-	render() {
-		return (
-			<div>
-				<h1>Team</h1>
-				<Megan />
-				<Mark />
-				<Will />
-				<Vikram />
-				<Christian />
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div>
+        <h1>Team</h1>
+        <TeamMember name="Alan" />
+        <TeamMember name="Alishaan" />
+        <TeamMember name="Ava" />
+        <TeamMember name="Christian" />
+        <TeamMember name="Emily" />
+        <TeamMember name="Jack" />
+        <TeamMember name="Kabir" />
+        <TeamMember name="Katherine" />
+        <TeamMember name="Mark" />
+        <TeamMember name="Megan" />
+        <TeamMember name="Vikram" />
+        <TeamMember name="Will" />
+      </div>
+    )
+  }
 }
 
-export default Team;
+export default Team

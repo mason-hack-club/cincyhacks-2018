@@ -1,13 +1,13 @@
-import React from 'react';
+import React from 'react'
 
 class FAQs extends React.Component {
-	render() {
-		return (
-			<div>
-				<h1>FAQs</h1>
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div>
+        <h1>FAQs</h1>
+      </div>
+    )
+  }
 }
 
-export default FAQs;
+export default FAQs

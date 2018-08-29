@@ -9,12 +9,16 @@
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5"
   },
+  "devDependencies": {
+    "prettier": "^1.13.6"
+  },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "fmt": "prettier \"{src/**,}/*.js\" --single-quote --no-semi --write"
   }
 }
