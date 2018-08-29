@@ -1,0 +1,272 @@
+/* All */
+
+#website-container {
+}
+
+/* NavBar */
+
+#nav-bar {
+	height: 6.5%;
+	background-color: white;
+}
+
+#nav-logo-container {
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+
+#tabs-container {
+	float: right;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tab {
+	width: 120px;
+	text-align: center;
+	color: #e32c40;
+}
+
+.tab:hover {
+	color: white;
+	background-color: #e32c40;
+	cursor: pointer;
+}
+
+.tab:active {
+	background-color: #af1526;
+}
+
+/* Header */
+
+#header-container {
+    height: 100vh;
+    background-image: url("http://www.dansorensenphotography.com/wp-content/uploads/cincinnati-skyline-night-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+#title {
+	text-align: center;
+	color: white;
+	margin-top: 30vh;
+}
+
+#title h1 {
+	font-size: 50px;
+}
+
+#title button {
+	font-size: 25px;
+	background-color: #e32c40;
+	border: 2px solid #e32c40;
+	border-radius: 10px;
+	color: white;
+	height: 50px;
+	width: 200px;
+}
+
+#title button:hover {
+	background-color: #af1526;
+	border-color: #af1526;
+	cursor: pointer;
+}
+
+/* About */
+
+#about-container {
+	background-color: #5b5b5b;
+	padding-top: 20px;
+	padding-left: 30px;
+	border: 1px solid transparent;
+}
+
+#about-container h1 {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+
+#about-paragraphs {
+	margin-top: 50px;
+	margin-bottom: 60px;
+	color: white;
+	font-size: 20px;
+	width: 40vw;
+	margin-left: 20px;
+}
+
+/* FAQs */
+
+#faqs-container {
+	background-color: #e32c40;
+	padding-top: 20px;
+	color: white;
+	border: 1px solid transparent;
+}
+
+#faqs-container h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.faq-row {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+}
+
+.faq {
+	width: 30%;
+	text-align: center;
+	padding: 10px;
+}
+
+.faq p {
+	text-align: left;
+}
+
+/* Schedule */
+
+#schedule-container {
+	text-align: center;
+}
+
+/* Help */
+
+#help-container {
+	background-color: #e32c40;
+	text-align: center;
+	color: white;
+	border: 1px solid transparent;
+}
+
+/* Team */
+
+#team-container {
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #5b5b5b;
+	color: white;
+	border: 1px solid transparent;
+}
+
+#team-container h1 {
+	font-size: 40px;
+}
+
+.row-members {
+	display: flex;
+	justify-content: space-between;
+}
+
+#top-row-members {
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+#bottom-row-members {
+	padding-left: 19vw;
+	padding-right: 19vw;
+	margin-bottom: 50px;
+}
+
+.team-member {
+	text-align: center;
+	width: 25vw;
+	height: 53vh;
+	border-radius: 20px;
+	background-color: #e32c40;
+	margin: 5px;
+}
+
+.team-member:hover {
+	transition: .5s ease;
+	opacity: .5;
+}
+
+.team-member h3 {
+	font-size: 25px;
+}
+
+.team-member img {
+	border: 1px solid red;
+	size: cover;
+	height: 60%;
+	width: 80%;
+}
+
+#megan {
+	background-image: url("https://camp.masonhackclub.com/assets/images/leaders/megan.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top;
+}
+
+#mark {
+	background-image: url("https://camp.masonhackclub.com/assets/images/leaders/mark.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top;
+}
+
+#will {
+	background-image: url("https://camp.masonhackclub.com/assets/images/leaders/will.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top;
+}
+
+#vikram {
+	background-image: url("https://cincyhacks.com/assets/images/staff/vikram-deepak.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top;
+}
+
+#christian {
+	background-image: url(./team/Christian.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top;
+}
+
+/* Register */
+
+#register-container {
+	background-color: #e32c40;
+	color: white;
+	padding-top: 20px;
+	text-align: center;
+	border: 1px solid transparent;
+}
+
+#register-container h1 {
+	font-size: 50px;
+}
+
+#register-container button {
+	margin-bottom: 70px;
+	font-size: 25px;
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 10px;
+	color: #e32c40;
+	height: 50px;
+	width: 200px;
+}
+
+#register-container button:hover {
+	background-color: #cecece;
+	border-color: #cecece;
+	cursor: pointer;
+}
