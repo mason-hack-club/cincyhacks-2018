@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css'
 
-// Import sections
 import Header from './sections/Header'
 import About from './sections/About'
 import FAQs from './sections/FAQs'
