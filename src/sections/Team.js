@@ -1,22 +1,17 @@
 import React from 'react';
 
-// Import team members
-import Megan from '../team/Megan';
-import Mark from '../team/Mark';
-import Will from '../team/Will';
-import Vikram from '../team/Vikram';
-import Christian from '../team/Christian';
+import TeamMember from '../components/TeamMember';
 
 class Team extends React.Component {
 	render() {
 		return (
 			<div>
 				<h1>Team</h1>
-				<Megan />
-				<Mark />
-				<Will />
-				<Vikram />
-				<Christian />
+				<TeamMember name="Megan" />
+				<TeamMember name="Mark" />
+				<TeamMember name="Will" />
+				<TeamMember name="Vikram" />
+				<TeamMember name="Christian" />
 			</div>
 		);
 	}
