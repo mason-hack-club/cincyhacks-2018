@@ -7,11 +7,18 @@ class Team extends React.Component {
     return (
       <div>
         <h1>Team</h1>
-        <TeamMember name="Megan" />
-        <TeamMember name="Mark" />
-        <TeamMember name="Will" />
-        <TeamMember name="Vikram" />
+        <TeamMember name="Alan" />
+        <TeamMember name="Alishaan" />
+        <TeamMember name="Ava" />
         <TeamMember name="Christian" />
+        <TeamMember name="Emily" />
+        <TeamMember name="Jack" />
+        <TeamMember name="Kabir" />
+        <TeamMember name="Katherine" />
+        <TeamMember name="Mark" />
+        <TeamMember name="Megan" />
+        <TeamMember name="Vikram" />
+        <TeamMember name="Will" />
       </div>
     )
   }
