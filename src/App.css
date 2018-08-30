@@ -8,6 +8,7 @@
 #nav-bar {
 	height: 6.5%;
 	background-color: white;
+	box-sizing: border-box;
 }
 
 #nav-logo-container {
@@ -28,6 +29,9 @@
 	width: 120px;
 	text-align: center;
 	color: #e32c40;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	text-decoration: none;
 }
 
 .tab:hover {
@@ -44,7 +48,7 @@
 
 #header-container {
     height: 100vh;
-    background-image: url("http://www.dansorensenphotography.com/wp-content/uploads/cincinnati-skyline-night-1.jpg");
+    background-image: url("https://amacincinnati.org/wordpress/wp-content/uploads/2016/08/AdobeStock_70819697.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -61,7 +65,7 @@
 	font-size: 50px;
 }
 
-#title button {
+.register-btn {
 	font-size: 25px;
 	background-color: #e32c40;
 	border: 2px solid #e32c40;
@@ -71,7 +75,7 @@
 	width: 200px;
 }
 
-#title button:hover {
+#register-btn:hover {
 	background-color: #af1526;
 	border-color: #af1526;
 	cursor: pointer;

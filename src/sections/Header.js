@@ -11,7 +11,9 @@ class Header extends React.Component {
 				<div id="title">
 					<h1>CincyHacks 2018</h1>
 					<h3>September 22nd - 23rd, 2018</h3>
-					<button>Register Now!</button>
+					<form action="https://goo.gl/forms/y8JIe0QPVXsw48uD2" method="get" target="_blank">
+						<button type="submit" className="register-btn" >Apply Now!</button>
+					</form>
 				</div>
 			</div>
 		);
