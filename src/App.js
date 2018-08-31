@@ -17,8 +17,6 @@ class App extends React.Component {
                 <Header />
                 <About />
                 <FAQs />
-                <Schedule />
-                <Help />
                 <Team />
                 <Register />
             </div>

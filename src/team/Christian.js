@@ -5,7 +5,6 @@ class Christian extends React.Component {
 		return (
 			<div className="team-member" id="christian">
 				<h3>Christian</h3>
-				<p>Who's this guy again?</p>
 			</div>
 		);
 	}

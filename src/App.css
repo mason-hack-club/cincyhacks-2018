@@ -87,22 +87,26 @@
 	background-color: #5b5b5b;
 	padding-top: 20px;
 	padding-left: 30px;
+	padding-right: 20px;
 	border: 1px solid transparent;
+	text-align: center;
 }
 
 #about-container h1 {
-	text-align: center;
 	color: white;
 	font-size: 40px;
 }
 
 #about-paragraphs {
-	margin-top: 50px;
-	margin-bottom: 60px;
+	margin: auto;
 	color: white;
 	font-size: 20px;
-	width: 40vw;
-	margin-left: 20px;
+	width: 20vw;
+}
+
+.ch-pics {
+	width: 20vw;
+	margin: 10px;
 }
 
 /* FAQs */
@@ -200,6 +204,7 @@
 
 .team-member h3 {
 	font-size: 25px;
+	margin-top: 100%;
 }
 
 .team-member img {
