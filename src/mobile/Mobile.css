@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .apply {
-  width: 150px;
+  min-width: 150px;
   height: 50px;
   background-color: #EF3E4A;
   border: none;
