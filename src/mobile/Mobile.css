@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
 }
 
+.header__container img {
+  width: 220px;
+}
+
 .header__container h1, .header__container h2 {
   color: white;
   text-align: center;
@@ -21,6 +25,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 #h__title {
   font-size: 48px;
+  margin-top: 10px;
 }
 
 #h__date {
@@ -130,6 +135,39 @@ h1, h2, h3, h4, h5, h6, p {
   color: #EF3E4A;
   border-radius: 8px;
 
+}
+
+.help__container {
+  padding: 20px;
+  background-color: #585858;
+  color: white;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.help__container p {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.partner img {
+  width: 200px;
+  height: auto;
+}
+
+.additionalhelp img {
+  width: 120px;
+}
+
+.partner {
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.partner a {
+  text-decoration: none;
+  color: white;
 }
 
 .navbar__container {

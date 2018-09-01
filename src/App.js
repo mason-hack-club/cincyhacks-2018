@@ -17,6 +17,7 @@ import SNavbar from './mobile/SNavbar';
 import SReady from './mobile/SReady';
 import STeam from './mobile/STeam';
 import SFAQ from './mobile/SFAQ';
+import SHelp from './mobile/SHelp';
 
 
 class App extends React.Component {
@@ -25,12 +26,12 @@ class App extends React.Component {
           <div style={{height: '100%'}}>
             <MediaQuery maxDeviceWidth={1224}>
               <div id="mobile__container">
-                <SNavbar/>
                 <SHeader/>
                 <SAbout/>
                 <SReady/>
                 <STeam/>
                 <SFAQ />
+                <SHelp />
                 <div className="footer">
                   <p>Made with love by the CincyHacks team.</p>
                 </div>
