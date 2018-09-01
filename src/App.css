@@ -287,9 +287,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #mobile__container {
-	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('skyline.jpg');;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://papers.co/wallpaper/papers.co-vv12-code-screen-it-pattern-background-code-34-iphone6-plus-wallpaper.jpg');;
 	background-size: cover;
 	background-attachment: fixed;
+}
+
+#mobile__container:before{
+	position:fixed;
+	z-index: 300;
 }
 
 #root {
