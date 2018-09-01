@@ -1,7 +1,12 @@
 /* All */
 
 #website-container {
-	font-family: futura;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+
 }
 
 /* NavBar */
@@ -279,4 +284,24 @@
 	background-color: #cecece;
 	border-color: #cecece;
 	cursor: pointer;
+}
+
+#mobile__container {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('skyline.jpg');;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#root {
+	height: 100%;
+}
+
+.footer p {
+	text-align: center;
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+.footer {
 }

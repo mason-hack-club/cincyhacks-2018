@@ -1,0 +1,139 @@
+h1, h2, h3, h4, h5, h6, p {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+
+}
+
+.header__container {
+  padding: 20px;
+  text-align: center;
+}
+
+.header__container h1, .header__container h2 {
+  color: white;
+  text-align: center;
+}
+
+#h__desc {
+  font-weight: 500;
+  font-size: 24px;
+
+}
+
+#h__title {
+  font-size: 48px;
+}
+
+#h__date {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.apply {
+  width: 150px;
+  height: 50px;
+  background-color: #EF3E4A;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  color: white;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.about__container {
+  padding: 20px;
+  background-color: #585858;
+  color: white;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.about__container h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+#a__desc {
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+
+.ready__container {
+  margin: 10px;
+  padding: 20px;
+  background-color: #EF3E4A;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.r__apply {
+  background-color: white;
+  color: #EF3E4A;
+  width: 200px;
+  height: 60px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  border-radius: 5px;
+  font-size: 24px;
+  border: none;
+
+}
+
+.team__container {
+  margin: 10px;
+  padding: 20px;
+  background-color: #585858;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.team__container img {
+  width: 50px;
+  height: 50px;
+  border: 1px white solid;
+  margin: 5px;
+}
+
+.faq__container {
+  background-color: #EF3E4A;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.faq__one {
+  border: 2px white solid;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.answer {
+  margin: 0;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.question {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#expand {
+  background-color: white;
+  color: #EF3E4A;
+  border-radius: 8px;
+
+}
+
+.navbar__container {
+  background-color: #353535;
+  position: fixed;
+  top: 0;
+}
