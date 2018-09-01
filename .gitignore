@@ -1,5 +1,8 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+# packages
+/package-locl.json
+
 # dependencies
 /node_modules
 
