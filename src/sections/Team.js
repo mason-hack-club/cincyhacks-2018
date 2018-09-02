@@ -8,9 +8,13 @@ import mark from '../team/mark.jpg';
 import nicholas from '../team/NicholasIten.jpg';
 import unknown from '../team/unknown.png';
 import emily from '../team/emily.jpg';
-import jack from '../team/jackmargeson.jpg';
-import katherine from '../team/katherinehu.jpg';
-import vikram from '../team/vikram.jpg';
+import jack from '../team/jackmargeson.png';
+import katherine from '../team/katherinehu.jpeg';
+import vikram from '../team/vikram.PNG';
+import kabir from '../team/kabir.jpeg';
+import scott from '../team/scott.jpg';
+import will from '../team/will.JPG';
+import christian from '../team/christian.jpg';
 
 
 class Team extends React.Component {
@@ -18,6 +22,7 @@ class Team extends React.Component {
 		return (
 			<div className="section" id="team-container">
 				<h1>Our Team</h1>
+				<p>Reach us at team@cincyhacks.com</p>
 				<div className="team__member">
 					<img src={megan}/>
 					<span>Megan Cui</span><br/>
@@ -51,9 +56,13 @@ class Team extends React.Component {
 
 				</div>
 				<div className="team__member">
-					<img src={unknown}/>
+					<img src={will}/>
 					<span>Will Mechler</span><br/>
 					<span><i>Head of Marketing</i></span>
+						<a href="https://linkedin.com/in/willmechler" class="icon"><i class="fa fa-linkedin"></i></a>
+						<a href="https://github.com/hackwill" class="icon"><i class="fa fa-github"></i></a>
+						<a href="https://willmechler.com" class="icon"><i class="fa fa-star"></i></a>
+						<a href="mailto:will@cincyhacks.com" class="icon"><i class="fa fa-envelope"></i></a>
 				</div>
 				<div className="team__member">
 					<img src={vikram}/>
@@ -66,9 +75,14 @@ class Team extends React.Component {
 					<a href="mailto:vikram@cincyhacks.com" class="icon"><i class="fa fa-envelope"></i></a>
 				</div>
 				<div className="team__member">
-					<img src={unknown}/>
+					<img src={christian}/>
 					<span>Christian Galang</span><br/>
 					<span><i>Webmaster</i></span>
+					<br/>
+						<a href="https://www.linkedin.com/in/christian-galang-7a066216b/" class="icon"><i class="fa fa-linkedin"></i></a>
+						<a href="https://github.com/nxvgalang" class="icon"><i class="fa fa-github"></i></a>
+						<a href="https://instagram.com/cristiano_01" class="icon"><i class="fa fa-instagram"></i></a>
+						<a href="mailto:christian@cincyhacks.com" class="icon"><i class="fa fa-envelope"></i></a>
 				</div>
 				<div className="team__member">
 					<img src={unknown}/>
@@ -90,14 +104,24 @@ class Team extends React.Component {
 					<span><i>Marketing Coordinator</i></span>
 				</div>
 				<div className="team__member">
-					<img src={unknown}/>
+					<img src={kabir}/>
 					<span>Kabir Doshi</span><br/>
 					<span><i>Logistics Coordinator</i></span>
+					<br/>
+						<a href="https://www.linkedin.com/in/kabirdoshi/" class="icon"><i class="fa fa-linkedin"></i></a>
+						<a href="https://twitter.com/KabirDoshi" class="icon"><i class="fa fa-twitter"></i></a>
+						<a href="https://instagram.com/kabirdoshi" class="icon"><i class="fa fa-instagram"></i></a>
+						<a href="mailto:kabir@cincyhacks.com" class="icon"><i class="fa fa-envelope"></i></a>
 				</div>
 				<div className="team__member">
-					<img src={unknown}/>
+					<img src={scott}/>
 					<span>Scott Shepherd</span><br/>
 					<span><i>Logistics Coordinator</i></span>
+					<br/>
+						<a href="https://www.linkedin.com/in/scott-shepherd-77140a151/" class="icon"><i class="fa fa-linkedin"></i></a>
+						<a href="https://github.com/shepherdsc" class="icon"><i class="fa fa-github"></i></a>
+						<a href="https://instagram.com/scottshepherd_" class="icon"><i class="fa fa-instagram"></i></a>
+						<a href="mailto:scott@cincyhacks.com" class="icon"><i class="fa fa-envelope"></i></a>
 				</div>
 				<div className="team__member">
 					<img src={jack}/>
