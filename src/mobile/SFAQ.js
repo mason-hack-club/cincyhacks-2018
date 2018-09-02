@@ -137,7 +137,7 @@ class SFAQ extends React.Component {
           }}>
           <p className="question">{this.getSign(9)} How long is CincyHacks?</p>
           { this.state.nine &&
-            (<p className="answer">You will have 24 hours to work on your projects at CincyHacks. We will also have activities before and after the block of coding, so expect to be there from Saturday afternoon to Sunday evening.</p>)
+            (<p className="answer">You will have 24 hours to work on your projects at CincyHacks. We will also have activities before and after the block of coding, so expect to be there from Saturday morning to Sunday afternoon.</p>)
           }
         </div>
 
