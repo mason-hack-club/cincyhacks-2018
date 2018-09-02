@@ -6,6 +6,7 @@ import alishaan from '../team/Alishaan.jpeg';
 import ava from '../team/Ava.JPG';
 import mark from '../team/mark.jpg';
 import nicholas from '../team/NicholasIten.jpg';
+import unknown from '../team/unknown.png';
 
 
 class Team extends React.Component {
@@ -46,47 +47,47 @@ class Team extends React.Component {
 
 				</div>
 				<div className="team__member">
-					<img src="http://wuweifashion.com/wp-content/uploads/2014/08/Square-360x360.jpg"/>
+					<img src={unknown}/>
 					<span>Will Mechler</span><br/>
 					<span><i>Head of Marketing</i></span>
 				</div>
 				<div className="team__member">
-					<img src="http://wuweifashion.com/wp-content/uploads/2014/08/Square-360x360.jpg"/>
+					<img src={unknown}/>
 					<span>Vikram Deepak</span><br/>
 					<span><i>Head of Experience</i></span>
 				</div>
 				<div className="team__member">
-					<img src="http://wuweifashion.com/wp-content/uploads/2014/08/Square-360x360.jpg"/>
+					<img src={unknown}/>
 					<span>Christian Galang</span><br/>
 					<span><i>Webmaster</i></span>
 				</div>
 				<div className="team__member">
-					<img src="http://wuweifashion.com/wp-content/uploads/2014/08/Square-360x360.jpg"/>
+					<img src={unknown}/>
 					<span>Alan Guo</span><br/>
 					<span><i>Marketing Coordinator</i></span>
 				</div>
 				<div className="team__member">
-					<img src="http://wuweifashion.com/wp-content/uploads/2014/08/Square-360x360.jpg"/>
+					<img src={unknown}/>
 					<span>Katherine Hu</span><br/>
 					<span><i>Marketing Coordinator</i></span>
 				</div>
 				<div className="team__member">
-					<img src="http://wuweifashion.com/wp-content/uploads/2014/08/Square-360x360.jpg"/>
+					<img src={unknown}/>
 					<span>Suhaas Ravela</span><br/>
 					<span><i>Marketing Coordinator</i></span>
 				</div>
 				<div className="team__member">
-					<img src="http://wuweifashion.com/wp-content/uploads/2014/08/Square-360x360.jpg"/>
+					<img src={unknown}/>
 					<span>Kabir Doshi</span><br/>
 					<span><i>Logistics Coordinator</i></span>
 				</div>
 				<div className="team__member">
-					<img src="http://wuweifashion.com/wp-content/uploads/2014/08/Square-360x360.jpg"/>
+					<img src={unknown}/>
 					<span>Scott Shepherd</span><br/>
 					<span><i>Logistics Coordinator</i></span>
 				</div>
 				<div className="team__member">
-					<img src="http://wuweifashion.com/wp-content/uploads/2014/08/Square-360x360.jpg"/>
+					<img src={unknown}/>
 					<span>Jack Margeson</span><br/>
 					<span><i>Logistics Coordinator</i></span>
 				</div>
@@ -101,7 +102,7 @@ class Team extends React.Component {
 								<a href="mailto:ava@cincyhacks.com" class="icon"><i class="fa fa-envelope"></i></a>
 				</div>
 				<div className="team__member">
-					<img src="http://wuweifashion.com/wp-content/uploads/2014/08/Square-360x360.jpg"/>
+					<img src={unknown}/>
 					<span>Emily Yang</span><br/>
 					<span><i>Experience Coordinator</i></span>
 				</div>
