@@ -1,5 +1,7 @@
 import React from 'react';
 import './Mobile.css';
+import mason from 'mason.jpg';
+
 
 class SHelp extends React.Component {
   render() {
@@ -7,7 +9,7 @@ class SHelp extends React.Component {
       <div className="help__container">
         <h1>Our Partners</h1>
         <div className="partner">
-          <img src="http://p10cdn4static.sharpschool.com/UserFiles/Servers/Server_391035/Templates/images/mason_logo.png" />
+          <img src={mason} />
           <p>Mason High School</p>
         </div>
 
