@@ -110,7 +110,6 @@ h1, h2, h3, h4, h5, h6, p {
 .register-btn:hover {
 	transition: color .3s, background-color .3s, box-shadow .3s;
 	background-color: #af1526;
-	border-color: #af1526;
 	cursor: pointer;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
@@ -204,12 +203,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 }
 
-table, td {
+#schedule-container table, #schedule-container td {
 	border: 1px white solid;
 	border-collapse: collapse;
 }
 
-table {
+#schedule-container table {
 	font-size: 18px;
 	display: inline-block;
 	margin: 10px 20px;
@@ -217,25 +216,25 @@ table {
 	width: 410px;
 }
 
-tr, caption {
+#schedule-container tr, #schedule-container caption {
 	width: 410px;
 }
 
-.scroller {
+#schedule-container .scroller {
 	margin-bottom: 20px;
 }
 
-td {
+#schedule-container td {
 	padding: 5px;
 }
 
-.table__header {
+#schedule-container .table__header {
 	padding: 10px;
 	font-weight: bold;
 	letter-spacing: 1px;
 }
 
-caption h3 {
+#schedule-container caption h3 {
 	letter-spacing: 1px;
 }
 
@@ -277,6 +276,7 @@ caption h3 {
 	padding: 5px;
 	border-radius: 15px;
 	font-weight: 400;
+	vertical-align: top;
 }
 
 .team__member img {
@@ -332,7 +332,7 @@ caption h3 {
 }
 
 #mobile__container {
-	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://papers.co/wallpaper/papers.co-vv12-code-screen-it-pattern-background-code-34-iphone6-plus-wallpaper.jpg');;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('http://papers.co/wallpaper/papers.co-vv12-code-screen-it-pattern-background-code-34-iphone6-plus-wallpaper.jpg');;
 	background-size: cover;
 	background-attachment: fixed;
 }

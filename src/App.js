@@ -18,6 +18,7 @@ import SReady from './mobile/SReady';
 import STeam from './mobile/STeam';
 import SFAQ from './mobile/SFAQ';
 import SHelp from './mobile/SHelp';
+import SSchedule from './mobile/SSchedule';
 
 
 class App extends React.Component {
@@ -28,6 +29,7 @@ class App extends React.Component {
               <div id="mobile__container">
                 <SHeader/>
                 <SAbout/>
+                <SSchedule />
                 <SReady/>
                 <STeam/>
                 <SFAQ />

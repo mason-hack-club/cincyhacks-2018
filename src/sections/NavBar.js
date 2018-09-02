@@ -4,6 +4,10 @@ import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 class NavBar extends React.Component {
+	handleClick = () => {
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSd7h-synW9Serf1norecyFGU3XcIvW5GrwY-2s7fkjrON-86Q/viewform?usp=sf_link");
+  }
+
 	render() {
 		return (
 			<div id="nav-bar">
@@ -36,11 +40,11 @@ class NavBar extends React.Component {
 							<p>Partners</p>
 						</div>
 					</AnchorLink>
-					<AnchorLink href="#register-container" className="tab" id="register-tab">
+					<div onClick={this.handleClick} className="tab" id="register-tab">
 						<div className="tab__apply">
 							<p>Apply</p>
 						</div>
-					</AnchorLink>
+					</div>
 				</div>
 			</div>
 		);

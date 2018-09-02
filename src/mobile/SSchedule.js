@@ -1,12 +1,14 @@
 import React from 'react';
+import './Mobile.css';
 
-class Schedule extends React.Component {
-	render() {
-		return (
-			<div className="section" id="schedule-container">
-				<h1>Schedule</h1>
-				<div className="scroller">
-				<table>
+class SSchedule extends React.Component {
+
+  render() {
+    return(
+      <div className="schedule__container">
+        <h1>Schedule</h1>
+        <div>
+        <table>
 					<caption><h3>Saturday, 9/22*</h3></caption>
 						<tr className="table__header">
 							<td>Time</td>
@@ -77,11 +79,11 @@ class Schedule extends React.Component {
 							<td>End of CincyHacks 2018</td>
 						</tr>
 				</table>
-			</div>
-			<span><i>*Specific times/events are subject to change.</i></span>
-			</div>
-		);
-	}
+        </div>
+        <p><i>*Specific times/events are subject to change.</i></p>
+      </div>
+    )
+  }
 }
 
-export default Schedule;
+export default SSchedule;

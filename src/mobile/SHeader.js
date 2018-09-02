@@ -4,7 +4,7 @@ import logo from '../chlogo.png';
 
 class SHeader extends React.Component {
   handleClick = () => {
-    window.location = "https://docs.google.com/forms/d/e/1FAIpQLSd7h-synW9Serf1norecyFGU3XcIvW5GrwY-2s7fkjrON-86Q/viewform?usp=sf_link";
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSd7h-synW9Serf1norecyFGU3XcIvW5GrwY-2s7fkjrON-86Q/viewform?usp=sf_link");
   }
 
   render() {
