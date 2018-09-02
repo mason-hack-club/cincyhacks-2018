@@ -39,7 +39,7 @@ class FAQs extends React.Component {
 					</div>
 					<div className="faq" id="question9">
 						<h3>How long is CincyHacks?</h3>
-						<p>You will have 24 hours to work on your projects at CincyHacks. We will also have activities before and after the block of coding, so expect to be there from Saturday afternoon to Sunday evening.</p>
+						<p>You will have 24 hours to work on your projects at CincyHacks. We will also have activities before and after the block of coding, so expect to be there from Saturday morning to Sunday afternoon.</p>
 					</div>
 			</div>
 		);
