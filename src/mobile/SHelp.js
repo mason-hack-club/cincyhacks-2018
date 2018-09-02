@@ -1,6 +1,6 @@
 import React from 'react';
 import './Mobile.css';
-import mason from 'mason.jpg';
+import mason from '../mason.jpg';
 
 
 class SHelp extends React.Component {
