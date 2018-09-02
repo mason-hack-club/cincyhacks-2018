@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .about__container {
   padding: 20px;
-  background-color: #585858;
+  background-color: rgb(91,91,91, .9);
   color: white;
   margin: 10px;
   border-radius: 15px;
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6, p {
 .ready__container {
   margin: 10px;
   padding: 20px;
-  background-color: #EF3E4A;
+  background-color: rgb(227,44,64, .9);
   color: white;
   text-align: center;
   border-radius: 15px;
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6, p {
 .team__container {
   margin: 10px;
   padding: 20px;
-  background-color: #585858;
+  background-color: rgb(91,91,91, .9);
   color: white;
   text-align: center;
   border-radius: 15px;
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .faq__container {
-  background-color: #EF3E4A;
+  background-color: rgb(227,44,64, .9);
   margin: 10px;
   padding: 20px;
   color: white;
@@ -155,14 +155,29 @@ h1, h2, h3, h4, h5, h6, p {
 
 .help__container {
   padding: 20px;
-  background-color: #585858;
   color: white;
   margin: 10px;
   border-radius: 15px;
   text-align: center;
+  background-color: rgb(91,91,91, .9);
+
+}
+
+.help__containerbig {
+  padding: 20px;
+  color: white;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgb(91,91,91, .75);
 }
 
 .help__container p {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.help__containerbig p {
   margin: 0;
   margin-top: 5px;
 }

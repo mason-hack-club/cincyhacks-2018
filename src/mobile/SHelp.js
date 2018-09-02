@@ -5,7 +5,7 @@ class SHelp extends React.Component {
   render() {
     return(
       <div className="help__container">
-        <h1>Partners</h1>
+        <h1>Our Partners</h1>
         <div className="partner">
           <img src="http://p10cdn4static.sharpschool.com/UserFiles/Servers/Server_391035/Templates/images/mason_logo.png" />
           <p>Mason High School</p>

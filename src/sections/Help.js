@@ -4,8 +4,8 @@ import '../mobile/Mobile.css';
 class SHelp extends React.Component {
   render() {
     return(
-      <div className="help__container" id="help-container">
-        <h1>Partners</h1>
+      <div className="help__containerbig" id="help-container">
+        <h1>Our Partners</h1>
         <div className="partner__big">
           <img src="http://p10cdn4static.sharpschool.com/UserFiles/Servers/Server_391035/Templates/images/mason_logo.png" />
           <p>Mason High School</p>

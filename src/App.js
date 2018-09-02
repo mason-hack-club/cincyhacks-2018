@@ -24,7 +24,7 @@ class App extends React.Component {
     render() {
         return (
           <div style={{height: '100%'}}>
-            <MediaQuery maxDeviceWidth={1224}>
+            <MediaQuery maxWidth={700}>
               <div id="mobile__container">
                 <SHeader/>
                 <SAbout/>
@@ -38,11 +38,13 @@ class App extends React.Component {
               </div>
             </MediaQuery>
 
-            <MediaQuery minDeviceWidth={1224}>
+            <MediaQuery minWidth={700}>
               <div id="website-container">
                 <Header />
                 <About />
+                <Schedule />
                 <Register />
+
                 <FAQs />
                 <Team />
                 <Help />

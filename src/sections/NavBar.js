@@ -14,24 +14,26 @@ class NavBar extends React.Component {
 							<p>About</p>
 						</div>
 					</AnchorLink>
-					<AnchorLink href="#faqs-container" className="tab" id="faq-tab">
-						<div>
-							<p>FAQs</p>
-						</div>
-					</AnchorLink>
+
 					<AnchorLink href="#schedule-container" className="tab" id="schedule-tab">
 						<div>
 							<p>Schedule</p>
 						</div>
 					</AnchorLink>
-					<AnchorLink href="#help-container" className="tab" id="help-tab">
+					<AnchorLink href="#faqs-container" className="tab" id="faq-tab">
 						<div>
-							<p>Help</p>
+							<p>FAQs</p>
 						</div>
 					</AnchorLink>
+
 					<AnchorLink href="#team-container" className="tab" id="team-tab">
 						<div>
 							<p>Team</p>
+						</div>
+					</AnchorLink>
+					<AnchorLink href="#help-container" className="tab" id="help-tab">
+						<div>
+							<p>Partners</p>
 						</div>
 					</AnchorLink>
 					<AnchorLink href="#register-container" className="tab" id="register-tab">

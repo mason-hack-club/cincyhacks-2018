@@ -5,7 +5,6 @@ class FAQs extends React.Component {
 		return (
 			<div className="section" id="faqs-container">
 				<h1>Frequently Asked Questions</h1>
-				<div className="faq-row" id="faq-top-row">
 					<div className="faq" id="question1">
 						<h3>When and where is CincyHacks?</h3>
 						<p>CincyHacks is being hosted at William Mason High School from Saturday, September 22nd to Sunday, September 23rd!</p>
@@ -18,8 +17,6 @@ class FAQs extends React.Component {
 						<h3>Is there a code of conduct?</h3>
 						<p>CincyHacks follows the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct</a>.</p>
 					</div>
-				</div>
-				<div className="faq-row" id="faq-middle-row">
 					<div className="faq" id="question4">
 						<h3>What should I bring?</h3>
 						<p>At the minimum, you'll need a student ID, laptop, and charger. We also recommend bringing a change of clothes, toiletries, and a sleeping bag or pillow. You won't be able to leave CincyHacks after the event starts, so make sure you have any medications you'll need.</p>
@@ -32,8 +29,6 @@ class FAQs extends React.Component {
 						<h3>What else is at CincyHacks?</h3>
 						<p>CincyHacks will have several booths where you can meet representatives from companies interested in helping students pursue technology. We will also have lightning talks about technology!</p>
 					</div>
-				</div>
-				<div className="faq-row" id="faq-bottom-row">
 					<div className="faq" id="question7">
 						<h3>I've never coded!</h3>
 						<p>Great, no prior knowledge is required! You're more than welcome to learn as you go!</p>
@@ -46,7 +41,6 @@ class FAQs extends React.Component {
 						<h3>How long is CincyHacks?</h3>
 						<p>You will have 24 hours to work on your projects at CincyHacks. We will also have activities before and after the block of coding, so expect to be there from Saturday afternoon to Sunday evening.</p>
 					</div>
-				</div>
 			</div>
 		);
 	}
