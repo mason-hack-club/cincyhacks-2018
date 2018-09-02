@@ -35,7 +35,7 @@ class NavBar extends React.Component {
 						</div>
 					</AnchorLink>
 					<AnchorLink href="#register-container" className="tab" id="register-tab">
-						<div>
+						<div className="tab__apply">
 							<p>Apply</p>
 						</div>
 					</AnchorLink>

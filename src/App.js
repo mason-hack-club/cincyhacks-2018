@@ -42,9 +42,15 @@ class App extends React.Component {
               <div id="website-container">
                 <Header />
                 <About />
+                <Register />
                 <FAQs />
                 <Team />
-                <Register />
+                <Help />
+
+
+                  <div className="footer">
+                    <p>Made with love by the CincyHacks team.</p>
+                  </div>
               </div>
 
             </MediaQuery>

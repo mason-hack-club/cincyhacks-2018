@@ -39,8 +39,8 @@ class FAQs extends React.Component {
 						<p>Great, no prior knowledge is required! You're more than welcome to learn as you go!</p>
 					</div>
 					<div className="faq" id="question8">
-						<h3>Is CincyHacks free?</h3>
-						<p>Yes, CincyHacks is completely free! We will be providing food, swag, snacks, and drinks at no cost.</p>
+						<h3>How much does CincyHacks cost?</h3>
+						<p>CincyHacks is completely free! We will be providing food, swag, snacks, and drinks at no cost.</p>
 					</div>
 					<div className="faq" id="question9">
 						<h3>How long is CincyHacks?</h3>

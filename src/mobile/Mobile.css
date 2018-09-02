@@ -116,6 +116,16 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 10px;
 }
 
+.faq__big {
+  border: 2px white solid;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 250px;
+  display: inline-block;
+  margin: 10px;
+}
+
 .answer {
   margin: 0;
   margin-top: 10px;
@@ -130,6 +140,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #expand {
+  background-color: white;
+  color: #EF3E4A;
+  border-radius: 8px;
+
+}
+
+#expand__big {
   background-color: white;
   color: #EF3E4A;
   border-radius: 8px;
@@ -159,9 +176,34 @@ h1, h2, h3, h4, h5, h6, p {
   width: 120px;
 }
 
+.additionalhelp__big img {
+  width: 220px;
+}
+
 .partner {
   margin-bottom: 50px;
   cursor: pointer;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.partner__big img {
+  width: 320px;
+  height: auto;
+}
+
+.partner__big {
+  margin-bottom: 50px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.partner__big a {
+  text-decoration: none;
+  color: white;
 }
 
 .partner a {
