@@ -16,9 +16,6 @@ class SFAQ extends React.Component {
     eleven: false,
     twelve: false,
     thirteen: false,
-    two: false,
-    one: false,
-    two: false,
   }
 
   getSign(num) {
