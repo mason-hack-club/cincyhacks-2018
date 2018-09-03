@@ -14,7 +14,6 @@ import vikram from '../team/vikram.PNG';
 import kabir from '../team/kabir.jpeg';
 import scott from '../team/scott.jpg';
 import will from '../team/will.JPG';
-import christian from '../team/christian.jpg';
 
 
 class Team extends React.Component {
@@ -75,7 +74,7 @@ class Team extends React.Component {
 					<a href="mailto:vikram@cincyhacks.com" class="icon"><i class="fa fa-envelope"></i></a>
 				</div>
 				<div className="team__member">
-					<img src={christian}/>
+					<img src={vikram}/>
 					<span>Christian Galang</span><br/>
 					<span><i>Webmaster</i></span>
 					<br/>
