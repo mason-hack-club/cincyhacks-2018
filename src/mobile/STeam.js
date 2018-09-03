@@ -13,7 +13,6 @@ import vikram from '../team/vikram.PNG';
 import kabir from '../team/kabir.jpeg';
 import scott from '../team/scott.jpg';
 import will from '../team/will.JPG';
-import christian from '../team/christian.jpg';
 
 class STeam extends React.Component {
   render() {
@@ -28,7 +27,7 @@ class STeam extends React.Component {
         <a href="https://www.linkedin.com/in/paul-nicholas-iten-332967168//"><img src={nicholas} /></a>
         <a href="http://linkedin.com/in/willmechler"><img src={will} /></a>
         <a href="https://linkedin.com/in/vikramdeepak"><img src={vikram} /></a>
-        <a href="https://www.linkedin.com/in/christian-galang-7a066216b/"><img src={christian} /></a>
+        <a href="https://www.linkedin.com/in/christian-galang-7a066216b/"><img src={vikram} /></a>
         <a href="https://www.linkedin.com/in/katherine-h-b35593161/"><img src={katherine} /></a>
         <img src={unknown} />
         <img src={unknown} />
