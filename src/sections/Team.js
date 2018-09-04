@@ -62,7 +62,7 @@ class Team extends React.Component {
 					<span><i>Head of Marketing</i></span>
 						<a href="https://linkedin.com/in/willmechler" class="icon"><i class="fa fa-linkedin"></i></a>
 						<a href="https://github.com/hackwill" class="icon"><i class="fa fa-github"></i></a>
-						<a href="https://williammechler.com" class="icon"><i class="fa fa-star"></i></a>
+						<a href="http://www.williammechler.com/" class="icon"><i class="fa fa-star"></i></a>
 						<a href="mailto:will@cincyhacks.com" class="icon"><i class="fa fa-envelope"></i></a>
 				</div>
 				<div className="team__member">
