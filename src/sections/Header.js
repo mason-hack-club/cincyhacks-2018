@@ -17,8 +17,11 @@ class Header extends React.Component {
 
 				<div id="title">
 					<img src={logo} />
-					<h1>CincyHacks<a href="https://twitter.com/cincyhacks" class="icon"><i class="fa fa-twitter"></i></a><a href="https://www.instagram.com/cincyhacks/" class="icon"><i class="fa fa-instagram"></i></a></h1>
-					
+					<h1>CincyHacks</h1>
+					<div id="ch-icons">
+						<a href="https://twitter.com/cincyhacks" class="icon"><i class="fa fa-twitter"></i></a>
+						<a href="https://www.instagram.com/cincyhacks/" class="icon"><i class="fa fa-instagram"></i></a>
+					</div>
 						<h2 id="h__desc" style={{fontSize: '28px'}}>Cincinnati's original high school hackathon</h2>
 
 					<h2 id="h__date" style={{fontSize: '24px'}}>September 22nd to 23rd, 2018</h2>
