@@ -52,8 +52,8 @@ class Team extends React.Component {
 					<br/>
 						<a href="https://linkedin.com/in/paul-nicholas-iten-332967168" class="icon"><i class="fa fa-linkedin"></i></a>
 						<a href="https://github.com/itenpn" class="icon"><i class="fa fa-github"></i></a>
+						<a href="https://instagram.com/nick.iten" class="icon"><i class="fa fa-instagram"></i></a>
 						<a href="mailto:nicholas@cincyhacks.com" class="icon"><i class="fa fa-envelope"></i></a>
-							<a href="https://instagram.com/nick.iten" class="icon"><i class="fa fa-instagram"></i></a>
 
 				</div>
 				<div className="team__member">
@@ -159,8 +159,8 @@ class Team extends React.Component {
 					<br/>
 						<a href="https://linkedin.com/in/alishaan-ali-645026152" class="icon"><i class="fa fa-linkedin"></i></a>
 						<a href="https://twitter.com/alishaan64?lang=en" class="icon"><i class="fa fa-twitter"></i></a>
-						<a href="mailto:alishaan@cincyhacks.com" class="icon"><i class="fa fa-envelope"></i></a>
 						<a href="https://instagram.com/alishaan.ali" class="icon"><i class="fa fa-instagram"></i></a>
+						<a href="mailto:alishaan@cincyhacks.com" class="icon"><i class="fa fa-envelope"></i></a>
 				</div>
 			</div>
 		);
