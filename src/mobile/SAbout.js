@@ -15,7 +15,7 @@ class SAbout extends React.Component {
 					</p>
 
 					<p>
-						This year's event is run by <a href="https://masonhackclub.com">Mason Hack Club</a> and in partnership with Mason High School.
+						This year's event is run by <a style={{color: "white"}} href="https://masonhackclub.com">Mason Hack Club</a> and in partnership with Mason High School.
 					</p>      </div>
     )
   }

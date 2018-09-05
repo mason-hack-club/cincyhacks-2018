@@ -7,6 +7,7 @@ class SHelp extends React.Component {
     return(
       <div className="help__containerbig" id="help-container">
         <h1>Our Partners</h1>
+        <p style={{color: "white", marginBottom: "30px", maxWidth: "700px", marginLeft: "auto", marginRight: "auto"}}>Though we are not accepting financial contributions from outside organizations this year, please email us at <a style={{color: "white"}} href="mailto:team@cincyhacks.com">team@cincyhacks.com</a> if you'd like to run a workshop or a keynote speech.</p>
         <div className="partner__big">
           <img src={mason} />
           <p>Mason High School</p>

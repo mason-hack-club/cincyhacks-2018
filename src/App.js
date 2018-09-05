@@ -31,8 +31,9 @@ class App extends React.Component {
                 <SAbout/>
                 <SSchedule />
                 <SReady/>
-                <STeam/>
+
                 <SFAQ />
+                <STeam/>
                 <SHelp />
                 <div className="footer">
                   <p>Made with love by the CincyHacks team.</p>
