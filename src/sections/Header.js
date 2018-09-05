@@ -21,6 +21,7 @@ class Header extends React.Component {
 						<h2 id="h__desc" style={{fontSize: '28px'}}>Cincinnati's original high school hackathon</h2>
 
 					<h2 id="h__date" style={{fontSize: '24px'}}>September 22nd to 23rd, 2018</h2>
+					<a href="https://twitter.com/cincyhacks" class="icon"><i class="fa fa-twitter"></i></a><br />
 						<h4><span style={{color: "white", fontWeight: "400", backgroundColor: "#EF3E4A"}}>Priority applications open now until September 10th</span></h4>
 
 						<button onClick={this.handleClick} className="register-btn" >Apply Now!</button>
