@@ -16,7 +16,7 @@ import scott from '../team/scott.jpg';
 import will from '../team/will.JPG';
 import christian from '../team/christiangalang.jpg';
 import suhaas from '../team/Suhaas.JPG';
-
+import alan from '../team/Alan.JPG';
 
 class Team extends React.Component {
 	render() {
@@ -86,7 +86,7 @@ class Team extends React.Component {
 						<a href="mailto:christian@cincyhacks.com" class="icon"><i class="fa fa-envelope"></i></a>
 				</div>
 				<div className="team__member">
-					<img src={unknown}/>
+					<img src={alan}/>
 					<span>Alan Guo</span><br/>
 					<span><i>Marketing Coordinator</i></span>
 				</div>
