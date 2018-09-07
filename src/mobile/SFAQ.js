@@ -48,6 +48,9 @@ class SFAQ extends React.Component {
       case 9:
       state = this.state.nine;
       break;
+      case 10:
+      state = this.state.ten;
+      break;
     }
 
     if (state === false) {
@@ -137,7 +140,15 @@ class SFAQ extends React.Component {
             (<p className="answer">You will have 24 hours to work on your projects at CincyHacks. We will also have activities before and after the block of coding, so expect to be there from Saturday morning to Sunday afternoon.</p>)
           }
         </div>
-
+          
+          <div className="faq__one" onClick={ () => {
+            this.setState( { ten: !this.state.ten } )
+          }}>
+          <p className="question">{this.getSign(10)} How are teams made?</p>
+          { this.state.ten &&
+            (<p className="answer">As soon as you arrive to CincyHacks, you can start forming teams. We highly encourage that you meet new people, but feel free to form a team with your friends before the event! Just note that the maximum team size is 4 people.</p>)
+          }
+        </div>
       </div>
     )
   }
