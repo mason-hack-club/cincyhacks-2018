@@ -41,6 +41,10 @@ class FAQs extends React.Component {
 						<h3>How long is CincyHacks?</h3>
 						<p>You will have 24 hours to work on your projects at CincyHacks. We will also have activities before and after the block of coding, so expect to be there from Saturday morning to Sunday afternoon.</p>
 					</div>
+					<div className="faq" id="question10">
+						<h3>How are teams made?</h3>
+						<p>As soon as you arrive to CincyHacks, you can start forming teams. We highly encourage that you meet new people, but feel free to form a team with your friends before the event! Just note that the maximum team size is 4 people.</p>
+					</div>
 			</div>
 		);
 	}
