@@ -121,6 +121,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* About */
 
 #about-container {
+	position: relative;
 	background-color: rgb(227,44,64, .7);
 	padding: 40px;
 	border: 1px solid transparent;
