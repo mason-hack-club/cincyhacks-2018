@@ -23,6 +23,8 @@ class SHelp extends React.Component {
       <div className="additionalhelp__big">
         <h3>Additional Help</h3>
         <img src="https://www.logolynx.com/images/logolynx/6b/6bddf128c9cd51635d2c9961fef52302.png"/>
+        <br />
+         <img src="https://cdn1.valpak.com/img/print/TwinDragonChinese_4CTI.tif">
         </div>
   </div>
     )
