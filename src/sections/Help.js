@@ -24,7 +24,7 @@ class SHelp extends React.Component {
         <h3>Additional Help</h3>
         <img src="https://www.logolynx.com/images/logolynx/6b/6bddf128c9cd51635d2c9961fef52302.png"/>
         <br />
-         <img src="https://cdn1.valpak.com/img/print/TwinDragonChinese_4CTI.tif" id="twin-dragons-logo">
+         <img src="https://cdn1.valpak.com/img/print/TwinDragonChinese_4CTI.tif" id="twin-dragons-logo" />
         </div>
   </div>
     )
