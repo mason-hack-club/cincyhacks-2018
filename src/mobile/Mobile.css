@@ -187,8 +187,16 @@ h1, h2, h3, h4, h5, h6, p {
   height: auto;
 }
 
-.additionalhelp img {
-  width: 120px;
+.mobile-big-logo {
+	height: 125px;
+}
+
+.mobile-medium-logo {
+	height: 80px;
+}
+
+#mobile-playstation-logo {
+	height: 50px;
 }
 
 .partner {
