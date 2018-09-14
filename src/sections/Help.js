@@ -22,9 +22,11 @@ class SHelp extends React.Component {
       </div>
       <div className="additionalhelp__big">
         <h3>Additional Help</h3>
-         <img src="https://cdn1.valpak.com/img/print/TwinDragonChinese_4CTI.tif" id="twin-dragons-logo" />
+         <img src="https://cdn1.valpak.com/img/print/TwinDragonChinese_4CTI.tif" id="twin-dragons-logo" class="big-logo" />
+      <img src="https://news.cengage.com/wp-content/uploads/2011/05/CL_Logo_RGB_JPG.jpg" id="cengage-logo" class="big-logo" />
       <br />
-        <img src="https://www.logolynx.com/images/logolynx/6b/6bddf128c9cd51635d2c9961fef52302.png"/>
+        <img src="https://www.logolynx.com/images/logolynx/6b/6bddf128c9cd51635d2c9961fef52302.png" id="playstation-logo" class="medium-logo" />
+       <img src="http://www.zoup.com/images/zoup-logo.png" id="zoup-logo" class="medium-logo" />
         </div>
   </div>
     )
