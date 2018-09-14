@@ -249,14 +249,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .big-logo {
-	height: 200px;
-	width: auto;
+	height: 300px;
 	margin: 20px;
 }
 
 .medium-logo {
 	height: 100px;
-	width: auto;
 	margin: 20px;
 }
 
