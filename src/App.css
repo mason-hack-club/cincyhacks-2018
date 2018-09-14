@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #tabs-container {
-	float: right;
+	margin-left: auto;
 	width: 60%;
 	height: 100%;
 	display: flex;
@@ -84,7 +84,6 @@ h1, h2, h3, h4, h5, h6, p {
 #title {
 	text-align: center;
 	color: white;
-	margin-top: 60px;
 }
 
 #title h1 {
