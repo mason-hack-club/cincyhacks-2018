@@ -23,13 +23,13 @@ class SHelp extends React.Component {
       </div>
       <div className="additionalhelp">
         <h3>Additional Help</h3>
-      <img src="https://cdn1.valpak.com/img/print/TwinDragonChinese_4CTI.tif" id="mobile-twin-dragon-logo" class="mobile-big-logo">
-    <br>
-      <img src="https://news.cengage.com/wp-content/uploads/2011/05/CL_Logo_RGB_JPG.jpg" id="mobile-cengage-logo" class="mobile-big-logo">
-      <br>
-      <img src="https://www.logolynx.com/images/logolynx/6b/6bddf128c9cd51635d2c9961fef52302.png" id="mobile-playstation-logo" class="mobile-medium-logo">
-    <br>
-       <img src="http://www.zoup.com/images/zoup-logo.png" id="mobile-zoup-logo" class="mobile-medium-logo">
+      <img src="https://cdn1.valpak.com/img/print/TwinDragonChinese_4CTI.tif" id="mobile-twin-dragon-logo" class="mobile-big-logo" />
+    <br />
+      <img src="https://news.cengage.com/wp-content/uploads/2011/05/CL_Logo_RGB_JPG.jpg" id="mobile-cengage-logo" class="mobile-big-logo" />
+      <br />
+      <img src="https://www.logolynx.com/images/logolynx/6b/6bddf128c9cd51635d2c9961fef52302.png" id="mobile-playstation-logo" class="mobile-medium-logo" />
+    <br />
+       <img src="http://www.zoup.com/images/zoup-logo.png" id="mobile-zoup-logo" class="mobile-medium-logo" />
         </div>
   </div>
     )
