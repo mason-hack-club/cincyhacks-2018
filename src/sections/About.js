@@ -20,7 +20,7 @@ class About extends React.Component {
 					</p>
 
 					<p>
-						This year's event is run by <a href="https://masonhackclub.com">Mason Hack Club</a> in partnership with Mason High School. Cincyhacks is not associated with any other non-profit organization.
+						This year's event is run by <a href="https://masonhackclub.com">Mason Hack Club</a> in partnership with Mason High School. CincyHacks is not associated with any other non-profit organization.
 					</p>
 				</div>
 				<img src={CincyHacks1} className="ch-pics"/>
