@@ -1,7 +1,7 @@
 import React from 'react';
 import './Mobile.css';
 import mason from '../mason.jpg';
-
+import zoup from '../images/Zoup-Logo.png';
 
 class SHelp extends React.Component {
   render() {
@@ -29,7 +29,7 @@ class SHelp extends React.Component {
       <br />
       <img src="https://www.logolynx.com/images/logolynx/6b/6bddf128c9cd51635d2c9961fef52302.png" id="mobile-playstation-logo" class="mobile-medium-logo" />
     <br />
-       <img src="http://www.zoup.com/images/zoup-logo.png" id="mobile-zoup-logo" class="mobile-medium-logo" />
+       <img src={zoup} id="mobile-zoup-logo" class="mobile-medium-logo" />
         </div>
   </div>
     )
