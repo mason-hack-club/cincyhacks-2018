@@ -54,7 +54,7 @@ class App extends React.Component {
 
 
                   <div className="footer">
-                    <p>Made with love by the CincyHacks team.</p>
+                    <p><b>&copy; Mason Hack Club 2018 All Rights Reserved.</b></p>
                   </div>
               </div>
 
