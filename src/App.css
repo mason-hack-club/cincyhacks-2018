@@ -227,6 +227,10 @@ h1, h2, h3, h4, h5, h6, p {
 	padding: 5px;
 }
 
+#schedule-container a {
+	color: white;
+}
+
 #schedule-container .table__header {
 	padding: 10px;
 	font-weight: bold;
