@@ -58,7 +58,7 @@ class Schedule extends React.Component {
 						</tr>
 						<tr>
 							<td>9:00 AM</td>
-							<td>Start submissions</td>
+							<td><a href="https://cincyhacks2018.devpost.com/">Start submissions</a></td>
 						</tr>
 						<tr>
 							<td>10:00 AM</td>
