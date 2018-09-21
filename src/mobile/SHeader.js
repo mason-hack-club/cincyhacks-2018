@@ -15,6 +15,7 @@ class SHeader extends React.Component {
           <h2 id="h__desc">Cincinnati's original high school hackathon</h2>
 
         <h2 id="h__date">September {22}nd to {23}rd, {2018}</h2>
+      <h4><span style={{color: "white", fontWeight: "400", backgroundColor: "#EF3E4A"}}>Applications are closed</span></h4>
           <p><a style={{color: "#EF3E4A"}} href="https://docs.google.com/forms/d/e/1FAIpQLScXKWwBMEkjCyRpf5-l7xJe64_hsxmyLV-mOloUWvhtnBmU2w/viewform">Register as a mentor</a></p>
 
       </div>
