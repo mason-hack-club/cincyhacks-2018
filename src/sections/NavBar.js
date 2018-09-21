@@ -40,11 +40,6 @@ class NavBar extends React.Component {
 							<p>Partners</p>
 						</div>
 					</AnchorLink>
-					<div onClick={this.handleClick} className="tab" id="register-tab">
-						<div className="tab__apply">
-							<p>Apply</p>
-						</div>
-					</div>
 				</div>
 			</div>
 		);
