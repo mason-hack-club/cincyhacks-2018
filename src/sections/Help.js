@@ -28,6 +28,10 @@ class SHelp extends React.Component {
       <br />
         <img src="https://www.logolynx.com/images/logolynx/6b/6bddf128c9cd51635d2c9961fef52302.png" id="playstation-logo" class="medium-logo" />
        <img src={zoup} id="zoup-logo" class="medium-logo" />
+      <br />
+      <img src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/008/441/highres/4cnpWCZ8_400x400.jpg" id="nku-logo" class="medium-logo" />
+      <img src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/008/442/highres/Kroger_logo.png" id="nku-logo" class="medium-logo" />
+      <img src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/008/445/highres/VVRLogoAlphaSide2.png" id="vvr-logo" class="medium-logo" />
         </div>
   </div>
     )
