@@ -18,7 +18,7 @@ class Schedule extends React.Component {
 						</tr>
 						<tr>
 							<td>9:15 AM</td>
-							<td>Opening ceremony begins</td>
+							<td><a href="https://docs.google.com/presentation/d/1NV2_f76mo8Yz8DIrnf-3lFx4rYKu3VI9MM8K8joWJJc/edit?usp=sharing">Opening ceremony begins</a></td>
 						</tr>
 						<tr>
 							<td>10:00 AM</td>
